@@ -1,0 +1,27 @@
+# Dataset output folders (generated at runtime)
+dataset/raw_images/
+dataset/passed/
+dataset/rejected/
+
+# Dead Letter Queue (runtime artifact)
+dead_letter_queue.json
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+.env/
+env/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
